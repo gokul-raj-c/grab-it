@@ -1,0 +1,46 @@
+
+.company-section {
+  width: 100vw;
+  height: 70vh;
+  background-image: url('../image/backgroundimage.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top; /* Ensures image starts from the top */
+  display: flex;
+  align-items: flex-start;   /* Align content to top vertically */
+}
+
+.company-title {
+  color: #000000;
+  font-size: 8rem;
+  font-weight: bold;
+  text-align: left;          /* Left-align text */
+  margin-top: 20vh;          /* Push text down from the top */
+  margin-left: 5vw;          /* Push text in from the left edge */
+  text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
+
+.company-button {
+  padding: 1rem 2.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #fff;
+  background: #0077ff;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  text-align: left; /* Ensures button text is left-aligned */
+  /* Optional: make button width match title for perfect alignment */
+  min-width: 200px;
+  margin-top: 42vh;          /* Push text down from the top */
+  margin-left: -25vw;          /* Push text in from the left edge */
+}
+
+.company-content {
+  margin-top: 20vh;
+  margin-left: 5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Left-aligns children */
+}
