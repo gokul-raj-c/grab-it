@@ -7,6 +7,8 @@ import Electronics from './components/Home/Electronics/Electronics'
 import Watches from './components/Home/Watches/Watches'
 import SignIn from './components/SignIn/SignIn'
 import SignUp from './components/SignUp/SignUp'
+import Admin from './components/Admin/Admin'
+import User from './components/User/User'
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
             <Route path="/watches" element={<Watches></Watches>}></Route>
             <Route path="/signin" element={<SignIn></SignIn>}></Route>
             <Route path="signup" element={<SignUp></SignUp>}></Route>
+            <Route path="/admin" element={<Admin></Admin>}></Route>
+            <Route path="/user" element={<User></User>}></Route>
           </Routes>
       </div>
     </BrowserRouter>
