@@ -1,8 +1,8 @@
 
 .company-section {
   width: 100vw;
-  height: 70vh;
-  background-image: url('../image/backgroundimage.jpg');
+  height: 80vh;
+  background-image: url('../../../assets/image/backgroundimage.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top; /* Ensures image starts from the top */

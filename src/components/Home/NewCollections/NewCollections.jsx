@@ -1,4 +1,4 @@
-import "../assets/css/newcollection.css";
+import "./NewCollections.css";
 import { Link } from "react-router-dom";
 
 const NewCollections = () => {

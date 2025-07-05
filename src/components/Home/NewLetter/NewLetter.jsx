@@ -1,7 +1,7 @@
 
-import '../assets/css/newsletter.css';
+import './NewLetter.css';
 
-const NewsLetter = () => {
+const NewLetter = () => {
   return (
     <div className='newsletter'>
         <h1>Get Exclusive Offers On Your Email</h1>
@@ -14,4 +14,4 @@ const NewsLetter = () => {
   )
 }
 
-export default NewsLetter;
+export default NewLetter;
