@@ -1,0 +1,93 @@
+/* Layout */
+.admin-layout {
+  display: flex;
+  height: 100vh;
+  flex-direction: row;
+}
+
+.main-content {
+  margin-top: 64px;
+  margin-left: 250px;
+  padding: 2rem;
+  width: 100%;
+  background-color: #f3f4f6;
+  min-height: calc(100vh - 64px);
+  box-sizing: border-box;
+}
+
+/* Form Card */
+.form-card {
+  background: #fff;
+  padding: 2rem 2.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 1200px;
+  margin: auto;
+}
+
+.form-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #1e1e1e;
+  text-align: left;
+}
+
+/* Form Fields */
+.form-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; /* Increased gap between form groups */
+}
+
+.form-fields .form-group {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.form-group label {
+  flex: 0 0 180px;
+  font-weight: 500;
+  color: #000;
+  text-align: left;
+  font-size: 1.05rem; /* Slightly larger label text */
+}
+
+.form-group input,
+.form-group textarea {
+  flex: 1;
+  padding: 0.9rem 1rem; /* Increased input height */
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1.05rem; /* Increased text size */
+}
+
+
+/* Preview Image */
+.preview-image {
+  margin-top: 0.5rem;
+  max-height: 100px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+/* Submit Button */
+.submit-button {
+  align-self: flex-start;
+  margin-left: 180px;
+  background-color: #1d4ed8;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.submit-button:hover {
+  background-color: #2563eb;
+}
+
